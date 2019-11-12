@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ICT4M 2020</title>
+
+    <link rel="stylesheet" href="register.css">
+
+  </head>
+  <body>
+
+    <div class="page-wrapper">
+      <header class="top-header">
+        <div class="top-banner">
+
+          <a href="home.html" class="backtohome">Back to Homepage</a>
+
+          <br>
+          <br>
+          <br>
+          <h1>ICT4M 2020</h1>
+
+          <p>International Conference on Information & Communication Technology for Muslim World 2020</p>
+
+        </div>
+
+      </header>
+
+      <main class="content">
+        <fieldset>
+          <h1>Econference Registration</h1>
+
+          <form class="registerform" action="index.html" method="post">
+
+            <div class="grid-container">
+              <div>
+                  <label for="eventname">Event Name</label>
+              </div>
+              <div>
+                <p>International Conference on Information & Communication Technology for the Muslim World (ICT4M 2020)</p>
+              </div>
+              <div>
+                <label for="rate">Rate</label>
+              </div>
+              <div>
+                <select class="selectrate">
+                  <option value="1">Local Participant W/out Paper</option>
+                  <option value="2">Intl. Participant W/out Paper</option>
+                  <option value="3">Persenter (International)</option>
+                  <option value="4">Presenter (Local)</option>
+                  <option value="5">Student (Presenter)</option>
+                  <option value="6">Exhibition</option>
+                  <option value="7">Intl. Student (Presenter)</option>
+                  <option value="8">Full-day Workshop (Non-Student)</option>
+                  <option value="9">Mini Workshop (Non-Student)</option>
+                  <option value="10">Presenter (additional 1 paper)</option>
+                  <option value="11">Presenter (additional 2 papers)</option>
+                  <option value="12">Mini Workshop (Student)</option>
+                  <option value="13">Fuul-day Wrokshop (Student)</option>
+                </select>
+              </div>
+              <div>
+                <label for="participant">Participants*</label>
+              </div>
+              <div>
+                <p>Name: <br> </p>
+                <input type="text" name="name" value="">
+                <p>Designation: <br> </p>
+                <input type="text" name="" value="">
+                <button type="button" name="addparticipant">+</button>
+              </div>
+              <div>
+                <label for="exclGST">Amount (excl. GST)</label>
+              </div>
+              <div>
+                <p id="exclGST">RM 600.00</p>
+              </div>
+            <div>
+              <label for="GSTamt">RM 0.00</label>
+            </div>
+            <div>
+              <p id="GSTamt">RM 0.00</p>
+            </div>
+            <div>
+              <label for="inclGST">Total Amount (incl. GST)</label>
+            </div>
+            <div>
+              <p id="inclGST">RM 600.00</p>
+            </div>
+            <div>
+              <label for="organization">Organization*</label>
+            </div>
+            <div>
+              <input type="text" name="organization" value="">
+            </div>
+            <div>
+              <label for="contact">Contact No*</label>
+            </div>
+            <div>
+              <p>Ex: 0123273849 / 0338463345</p>
+              <br>
+              <input type="number" name="contact" value="">
+            </div>
+            <div>
+              <label for="fax">Fax No</label>
+            </div>
+            <div>
+              <p>Ex: 0123273849 / 0338463345</p>
+              <br>
+              <input type="number" name="fax" value="">
+            </div>
+            <div>
+              <label for="email">Email*</label>
+            </div>
+            <div>
+              <input type="email" name="email" value="">
+            </div>
+            <div>Payment Via</div>
+            <div>
+              <input type="radio" name="credit" value="">
+              <label for="credit">Credit Card
+                <br>
+                <img src="Images\credit.jpg" alt="" id="creditcard">
+              </label>
+              <br>
+              <input type="radio" name="debit" value="">
+              <label for="debit">Debit Account
+                <br>
+                <img src="Images\fpx.png" alt="" id="debitacc">
+              </label>
+            </div>
+
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <button type="button" name="submit" id="submitbtn">Submit</button>
+
+          </form>
+            <br>
+
+            <img src="Images/bankslogo.png" alt="" id="banklogos">
+
+        </fieldset>
+      </main>
+
+
+      <footer class="footer">
+
+<div class="row">
+        <div class="column">
+
+        </div>
+        <div class="column">
+          <div class="organisedby">
+            <p>Organised by:</p>
+            <img src="Images/iium logo.png" alt="" id="iiumlogo" align="right">
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p>Email: ict4m@iium.edu.my <br>
+             Website: https://ict4m.iium.edu.my</p>
+        </div>
+        <div class="column">
+          <div class="address">
+            <p>SECRETARIAT OF ICT4M 2020, <br>
+              Kuliyyah of Information and Communication Technology (KICT), <br>
+              International Islamic University Malaysia, <br>
+              Jalan Gombak, 53100 Kuala Lumpur, Malaysia</p>
+          </div>
+          <br>
+          <br>
+          <p>Tel: +603-6196 5601 <br>
+             Fax: +603-6196 5971</p>
+        </div>
+
+      </footer>
+    </div>
+
+  </body>
+</html>

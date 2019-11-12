@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Corbel', sans-serif;
+}
+Body{
+    background-image: url(Images/background.jpeg);
+    margin: 8px;
+    font-style: normal;
+    font-weight: 300;
+    background-position: center center;
+    background-repeat: repeat;
+    margin: auto;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.top-banner{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Images/header.jpg);
+    background-repeat: no-repeat;
+}
+.top-banner h1{
+  text-align: center;
+  font-family: 'Corbel', sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  color: #F1F8E0;
+  margin-bottom: 15px;
+}
+.top-banner p{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2vw;
+  color: #F1F8E0;
+  margin-bottom: 15px;
+}
+.backtohome{
+  margin-top: 5px;
+  margin-right: 2px;
+  align: right;
+  border-radius: 5px;
+  border: 3px solid #E9ED75;
+  background-color: white;
+  color: black;
+  padding: 7px 20px;
+  width: 130px;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+}
+.backtohome:hover{
+  background-color:#E9ED75;
+  color: black;
+}
+fieldset{
+  padding: 20px;
+  margin: 50px;
+}
+form h1{
+  margin-left: 20px;
+  color: #943126 ;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 5px;
+  padding: 30px;
+  font-family: 'Corbel', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #900C3F;
+}
+.grid-container div{
+    margin: 10px;
+}
+form label{
+  font-style: bold;
+  font-size: 20px;
+}
+form p{
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+}
+#creditcard{
+  width: 150px;
+  height: 70px;
+}
+#debitacc{
+  width: 150px;
+  height: 70px;
+}
+#submitbtn{
+  margin-top: 1px;
+  margin-right: 2px;
+  align: right;
+  border-radius: 5px;
+  border: 3px solid #1A5276 ;
+  background-color: #1A5276 ;
+  color: #A9CCE3;
+  height: 40px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 17px;
+}
+#submitbtn:hover{
+  background-color:#154360 ;
+  color: #A9CCE3 ;
+}
+#banklogos{
+
+  margin-left: 300px;
+  width: 900px;
+  height: 150px;
+}
+.footer{
+  width: 100%;
+  height: 240px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(Images/footer.jpg);
+  background-repeat: no-repeat;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.organisedby p{
+  align: center;
+}
+#iiumlogo{
+  align: right;
+  height: 70px;
+  width: 70px;
+}
+.footer p{
+  text-align: right;
+  color: white;
+}
