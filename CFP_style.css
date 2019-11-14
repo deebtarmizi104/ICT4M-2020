@@ -1,11 +1,12 @@
 .header{
   text-align: center;
+  font-family: "family corbel", sans-serif;
 }
 .container0 {
   position: relative;
   color: white;
   width: 350px;
-  border: 5px solid grey;
+  border: 5px solid white;
   grid-column:  2/ 3;
   grid-row: 2 / 2;
 }
@@ -13,7 +14,7 @@
   position: relative;
   color: white;
   width: 350px;
-  border: 5px solid grey;
+  border: 5px solid white;
   grid-column:  3/ 4;
   grid-row: 3 / 2;
 }
@@ -21,7 +22,7 @@
   position: relative;
   color: white;
   width: 350px;
-  border: 5px solid grey;
+  border: 5px solid white;
   grid-column:  4/ 5;
   grid-row: 2 /3;
 }
@@ -29,7 +30,7 @@
   position: relative;
   color: white;
   width: 350px;
-  border: 5px solid grey;
+  border: 5px solid white;
   grid-column:  2/ 3;
   grid-row: 3 / 4;
 }
@@ -37,7 +38,7 @@
   position: relative;
   color: white;
   width: 350px;
-  border: 5px solid grey;
+  border: 5px solid white;
   grid-column:  3/4;
   grid-row: 3 / 4;
 }
@@ -57,23 +58,23 @@
 .word{
   color: black;
   font-size: 18px;
-  font-family: "Arial Narrow", cursive, sans-serif;
+  font-family: "family corbel", sans-serif;
 }
 .wrap {
   display: grid;
   grid-template-columns:  auto auto auto;
   grid-row-gap: 50px;
   grid-column-gap: 12px;
-  background-image: url(Images/background.jpeg);
+  background-image: url("background.jpeg");
   padding: 10px;
 }
 
 .wrap > div {
-  background-color: grey;
+  background-color: #ffffff;
   text-align: left;
   padding: 20px 0;
   font-size: 15px;
 }
 .wrap > div:hover{
-  background-color: #c2c2a3;
+  background-color: #fae6ff;
 }
