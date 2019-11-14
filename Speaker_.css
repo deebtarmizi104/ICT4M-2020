@@ -10,11 +10,15 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-style:groove;
-  background-color: #ffccf3;
-  height: 370px;
+  border-style:none;
+  background-color: #ffffff;
+  font-family: "family corbel", sans-serif;
+  font-size: 15px;
+  opacity: 0.9;
+  height: 330px;
   width: 800px;
   padding: 10px;
+  border-radius: 25px;
 }
 .KnFb{
   position: relative;
@@ -56,19 +60,28 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-style:groove;
-  background-color: #ffccf3;
-  height: 190px;
+  border-style:none;
+  background-color: #ffffff;
+  font-family: "family corbel", sans-serif;
+  font-size: 15px;
+  opacity: 0.9;
+  height: 170px;
   width: 800px;
   padding: 10px;
+  border-radius: 25px;
 }
 .PN2{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-style:groove;
-  background-color: #ffccf3;
-  height: 120px;
+  border-style:none;
+  background-color: #ffffff;
+  font-family: "family corbel", sans-serif;
+  font-size: 15px;
+  opacity: 0.9;
+  height: 110px;
   width: 800px;
   padding: 10px;
+  border-radius: 25px;
 }
+
