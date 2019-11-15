@@ -4,7 +4,7 @@
 }
 Body{
     background-image: url(Images/background.jpeg);
-    margin: 8px;
+    margin: 8vh 8vw;;
     font-style: normal;
     font-weight: 300;
     background-position: center center;
@@ -19,20 +19,12 @@ Body{
   clear: both;
   display: table;
 }
-/* .page-wrapper{
-  max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-/* @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  } */
+.top-header{
+  position: fixed;
+}
 .top-banner{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 40vh;
     background-position: center;
     background-size: cover;
     background-image: url(Images/header.jpg);
@@ -55,33 +47,29 @@ Body{
   margin-bottom: 15px;
 }
 .search-box {
-  width: 130px;
-  height: 40px;
+  width: 18vw;
+  height: 6vh;
+  float: left;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 3vh;
   background-color: white;
-  background-image: url('Images/searchicon.jpg');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
 }
-.search-box :focus{
-  width: 20%
-}
 .registerbtn{
   margin-top: 1px;
   margin-right: 2px;
-  align: right;
+  float: right;
   border-radius: 5px;
   border: 3px solid #E9ED75;
   background-color: white;
   color: black;
   padding: 7px 20px;
-  width: 130px;
+  width: 11vw;
+  height: 6vh;
   font-weight: bold;
   font-size: 17px;
   text-decoration: none;
@@ -91,57 +79,58 @@ Body{
   color: black;
 }
 .nav-bar{
-    border:1px solid #ccc;
-    border-width:1px 0;
-    height: 55px;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-    font: 'Corbel', sans-serif;
-    font-weight: bold;
-    font-size: 16px;
+    width: 100vw;
     background-color: #424242;
 }
+.nav-bar ul{
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+#navbtn{
+  display: none;
+}
 .nav-bar li{
-    display:inline;
-    width: 30px;
-    padding-top: 5px;
+    list-style-type: none;
+    margin: 2vh 1vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    text-align: center;
 }
 .nav-bar a{
-    display:inline-block;
-    padding:5px;
-    color: white;
-    text-align: center;
     text-decoration: none;
-    width: 200px;
-    height: 15px;
-    margin-bottom: 10px;
+    color: white;
+    padding: 3vw;
+
 }
-.nav-bar li a:hover {
+.nav-bar a:hover{
   background-color: #58ACFA;
   color: black;
   border-radius: 7px;
-  height: 20px;
+  height: 10vh;
 }
-.nav-bar a.active {
-  background-color: #01DF74;
-  color: black;
-  border-radius: 7px;
-  height: 25px;
-}
-@media screen and (max-width: 500px) {
-  .nav-bar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: center;
+@media only screen and (max-width: 900px) {
+
+  .nav-bar ul{
+    flex-direction: column;
   }
+
+  .nav-bar li{
+    margin: 0;
+  }
+
+  .nav-bar a{
+    display: block;
+  }
+}
+.content{
+  padding: 50vh 2vw;
 }
 .column {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 2vw;
 }
 .row:after {
   content: "";
@@ -152,32 +141,32 @@ Body{
   padding-left: 50px;
   font-family: 'Corbel', sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 2vw;
 }
 .about h2{
   font-family: 'Corbel', sans-serif;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 3vw;
   color: #A04000;
 }
 .grid-container{
   display: grid;
   grid-template-columns: auto auto;
   grid-gap: 5px;
-  padding: 30px;
+  padding: 2vw 5vh;
   font-family: 'Corbel', sans-serif;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.5vw;
   color: #900C3F;
 }
 #calendaricon{
   align: center;
   padding-left: 30px;
-  width: 600px;
-  height: 250px;
+  width: 40vw;
+  height: 35vh;
 }
 .grid-container div{
-    margin: 10px;
+    margin: 1vw 2vh;
 }
 .countdown{
   height: 100px;
@@ -214,8 +203,8 @@ Body{
     padding: 0;
 }
 .footer{
-  width: 100%;
-  height: 240px;
+  width: 100vw;
+  height: 40vh;
   background-position: center;
   background-size: cover;
   background-image: url(Images/footer.jpg);
@@ -224,7 +213,7 @@ Body{
 .footer-column {
   float: left;
   width: 33%;
-  padding: 10px;
+  padding: 1vw;
 }
 .footer-row:after {
   content: "";
@@ -236,8 +225,8 @@ Body{
 }
 #iiumlogo{
   align: right;
-  height: 70px;
-  width: 70px;
+  height: 12vh;
+  width: 7vw;
 }
 .footer p{
   text-align: right;
