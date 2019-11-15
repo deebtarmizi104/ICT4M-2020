@@ -130,6 +130,14 @@ Body{
   border-radius: 7px;
   height: 25px;
 }
+@media screen and (max-width: 500px) {
+  .nav-bar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
 table{
   border-collapse: collapse;
   border: 2px solid black;
