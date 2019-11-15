@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Registration Form</title>
+    <title>ICT4M 2020</title>
 
     <link rel="stylesheet" href="register.css">
 
@@ -15,7 +15,7 @@
       <header class="top-header">
         <div class="top-banner">
 
-          <a href="index.html" class="backtohome">Back to Homepage</a>
+          <a href="home.html" class="backtohome">Back to Homepage</a>
 
           <br>
           <br>
@@ -58,18 +58,19 @@
                   <option value="10">Presenter (additional 1 paper)</option>
                   <option value="11">Presenter (additional 2 papers)</option>
                   <option value="12">Mini Workshop (Student)</option>
-                  <option value="13">Fuul-day Wrokshop (Student)</option>
+                  <option value="13">Full-day Workshop (Student)</option>
                 </select>
               </div>
               <div>
-                <label for="participant">Participants*</label>
+                <label for="participant">Participants<span style="color:red">*</span></label>
               </div>
               <div>
-                <p>Name: <br> </p>
-                <input type="text" name="name" value="">
-                <p>Designation: <br> </p>
-                <input type="text" name="" value="">
-                <button type="button" name="addparticipant">+</button>
+                <label for="name" style="color:black" id="partnamelabel">Name: </label>
+                <label for="designation" style="color:black" id="partdesignlabel">Designation: </label>
+                <br>
+                <input type="text" name="name" value=""  id="partnameinput">
+                <input type="text" name="designation" value="" id="partdesigninput">
+                <button type="button" name="addparticipant" id="addbtn">+</button>
               </div>
               <div>
                 <label for="exclGST">Amount (excl. GST)</label>
@@ -90,29 +91,29 @@
               <p id="inclGST">RM 600.00</p>
             </div>
             <div>
-              <label for="organization">Organization*</label>
+              <label for="organization">Organization<span style="color:red">*</span></label>
             </div>
             <div>
               <input type="text" name="organization" value="">
             </div>
             <div>
-              <label for="contact">Contact No*</label>
+              <label for="contact">Contact No<span style="color:red">*</span></label>
             </div>
             <div>
-              <p>Ex: 0123273849 / 0338463345</p>
+              <label for="contactNo" style="color:black">Ex: 0123273849 / 0338463345</label>
               <br>
-              <input type="number" name="contact" value="">
+              <input type="tel" name="contact" value="">
             </div>
             <div>
               <label for="fax">Fax No</label>
             </div>
             <div>
-              <p>Ex: 0123273849 / 0338463345</p>
+              <label for="faxNo" style="color:black">Ex: 0123273849 / 0338463345</label>
               <br>
-              <input type="number" name="fax" value="">
+              <input type="tel" name="fax" value="">
             </div>
             <div>
-              <label for="email">Email*</label>
+              <label for="email">Email<span style="color:red">*</span></label>
             </div>
             <div>
               <input type="email" name="email" value="">
@@ -120,13 +121,13 @@
             <div>Payment Via</div>
             <div>
               <input type="radio" name="credit" value="">
-              <label for="credit">Credit Card
+              <label for="credit" style="color:black">Credit Card
                 <br>
                 <img src="Images\credit.jpg" alt="" id="creditcard">
               </label>
               <br>
               <input type="radio" name="debit" value="">
-              <label for="debit">Debit Account
+              <label for="debit" style="color:black">Debit Account
                 <br>
                 <img src="Images\fpx.png" alt="" id="debitacc">
               </label>
@@ -142,7 +143,9 @@
 
           </form>
             <br>
-
+            <br>
+            <br>
+            <br>
             <img src="Images/bankslogo.png" alt="" id="banklogos">
 
         </fieldset>
@@ -186,3 +189,4 @@
 
   </body>
 </html>
+
