@@ -11,7 +11,7 @@
   </head>
   <body>
 
-    <div class="page-wrapper">
+    <div>
       <header class="top-header">
         <div class="top-banner">
 
@@ -29,6 +29,7 @@
         </div>
         <nav class="nav-bar">
           <ul>
+            <button id="navbtn"> X </button>
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#cfp">Call for Papers</a></li>
             <li><a href="#submission">Submission Guidelines</a></li>
@@ -39,18 +40,19 @@
           </ul>
         </nav>
 
+        <script type="text/javascript" src="Project HTML\navbar.js">
 
+        </script>
       </header>
 
-  <main class="main clearfix">
+  <main class="content">
 
     <div class="row">
       <div class="column">
 
         <div class="about">
           <h2 align="center">ABOUT</h2>
-          <br>
-          <br>
+
           <p>ICT4M 2020 is a conference that gathers academicians, researchers, practitioners, professionals, and students
             to address the challenges of Information and Communication Technology (ICT) for the Muslim world.
             This conference has been conducted seven times so far with the most recent location
@@ -79,22 +81,20 @@
           <div>Cenference</div>
           <div>23-25 March 2020</div>
 
-
         </div>
-
-        <div class="countdown">
-          <p class="date">{{ date }}</p>
-          <p class="time">{{ time }}</p>
-          <p class="clocktitle">Countdown to ICT4M 2020</p>
-        </div>
-        <br>
-
-
 
       </div>
 
-
     </div>
+
+    <div class="row">
+      <div class="countdown">
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="clocktitle">Countdown to ICT4M 2020</p>
+      </div>
+    </div>
+
 
   </main>
 
