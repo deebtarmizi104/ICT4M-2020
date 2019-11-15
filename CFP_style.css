@@ -1,6 +1,9 @@
 .header{
   text-align: center;
-  font-family: "family corbel", sans-serif;
+  font-family: "corbel", sans-serif;
+}
+.content{
+  padding: 50vh 2vw;
 }
 .container0 {
   position: relative;
