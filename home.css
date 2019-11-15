@@ -1,143 +1,243 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+* {
+  box-sizing: border-box;
+  font-family: 'Corbel', sans-serif;
+}
+Body{
+    background-image: url(Images/background.jpeg);
+    margin: 8vh 8vw;;
+    font-style: normal;
+    font-weight: 300;
+    background-position: center center;
+    background-repeat: repeat;
+    margin: auto;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.top-header{
+  position: fixed;
+}
+.top-banner{
+    width: 100vw;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(Images/header.jpg);
+    background-repeat: no-repeat;
+}
+.top-banner h1{
+  text-align: center;
+  font-family: 'Corbel', sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  color: #F1F8E0;
+  margin-bottom: 15px;
+}
+.top-banner p{
+  text-align: center;
+  font-family: 'Corbel', sans-serif;
+  font-weight: bold;
+  font-size: 2vw;
+  color: #F1F8E0;
+  margin-bottom: 15px;
+}
+.search-box {
+  width: 18vw;
+  height: 6vh;
+  float: left;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 3vh;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.registerbtn{
+  margin-top: 1px;
+  margin-right: 2px;
+  float: right;
+  border-radius: 5px;
+  border: 3px solid #E9ED75;
+  background-color: white;
+  color: black;
+  padding: 7px 20px;
+  width: 145px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+}
+.registerbtn:hover{
+  background-color:#E9ED75;
+  color: black;
+}
+.nav-bar{
+    width: 100vw;
+    background-color: #424242;
+}
+.nav-bar ul{
+  margin: 0;
+  padding: 0;
 
-    <title>ICT4M 2020</title>
+  display: flex;
+}
+#navbtn{
+  display: none;
+}
+.nav-bar li{
+    list-style-type: none;
+    margin: 2vh 1vw;
+    font-weight: bold;
+    font-size: 2.2vh;
+    text-align: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    padding: 3vw;
 
-    <link rel="stylesheet" href="home.css">
+}
+.nav-bar a:hover{
+  background-color: #58ACFA;
+  color: black;
+  border-radius: 7px;
+  height: 10vh;
+}
+.navbar a.active{
+  background-color: #01DF74;
+  color: black;
+  border-radius: 7px;
+  
+}
+@media only screen and (max-width: 900px) {
 
-  </head>
-  <body>
+  .nav-bar ul{
+    flex-direction: column;
+  }
 
-    <div>
-      <header class="top-header">
-        <div class="top-banner">
+  .nav-bar li{
+    margin: 0;
+  }
 
-          <input class="search-box" type="text" name="search" placeholder="Search..">
-          <a href="registration.html" class="registerbtn">Register now</a>
-
-
-          <br>
-          <br>
-          <br>
-          <h1>ICT4M 2020</h1>
-
-          <p>International Conference on Information & Communication Technology for Muslim World 2020</p>
-
-        </div>
-        <nav class="nav-bar">
-          <ul>
-            <button id="navbtn"> X </button>
-            <li><a href="#home" class="active">Home</a></li>
-            <li><a href="#cfp">Call for Papers</a></li>
-            <li><a href="#submission">Submission Guidelines</a></li>
-            <li><a href="#programme">Programme</a></li>
-            <li><a href="#parallel">Parallel Session</a></li>
-            <li><a href="#speakers">Speakers</a></li>
-            <li><a href="#fees">Conference Fees</a></li>
-          </ul>
-        </nav>
-
-        <script type="text/javascript" src="Project HTML\navbar.js">
-
-        </script>
-      </header>
-
-  <main class="content">
-
-    <div class="row">
-      <div class="column">
-
-        <div class="about">
-          <h2 align="center">ABOUT</h2>
-
-          <p>ICT4M 2020 is a conference that gathers academicians, researchers, practitioners, professionals, and students
-            to address the challenges of Information and Communication Technology (ICT) for the Muslim world.
-            This conference has been conducted seven times so far with the most recent location
-            in Kuala Lumpur, Malaysia on 23-25 March 2020. In conjunction with the World Congress on
-            Integration and Islamicization, ICT4M 2020 will be held on 27-29 March 2020 in Kuantan, Pahang.
-            The theme for this year is “Mental Health and  Well Being in the 4th Industrial Revolution”. </p>
-        </div>
-
-      </div>
-
-      <div class="column">
-        <img src="Images\calendaricon.png" alt="" id="calendaricon">
-        <div class="grid-container">
-          <div>Full Paper Submission Dateline</div>
-          <div>1st November 2019</div>
-
-          <div>Acceptance Notifications</div>
-          <div>31st December 2019</div>
-
-          <div>Early Registration Dateline</div>
-          <div>10 January 2020</div>
-
-          <div>Camera Ready</div>
-          <div>31st January 2020</div>
-
-          <div>Cenference</div>
-          <div>23-25 March 2020</div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="column">
-
-      </div>
-      <div class="column">
-        <div class="countdown">
-          <p class="date">{{ date }}</p>
-          <p class="time">{{ time }}</p>
-          <p class="clocktitle">Countdown to ICT4M 2020</p>
-        </div>
-      </div>
-    </div>
-
-
-  </main>
-
-
-      <footer class="footer">
-
-<div class="footer-row">
-        <div class="footer-column">
-
-        </div>
-        <div class="footer-column">
-          <div class="organisedby">
-            <p>Organised by:</p>
-            <img src="Images/iium logo.png" alt="" id="iiumlogo" align="right">
-          </div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <p>Email: ict4m@iium.edu.my <br>
-             Website: https://ict4m.iium.edu.my</p>
-        </div>
-        <div class="footer-column">
-          <div class="address">
-            <p>SECRETARIAT OF ICT4M 2020, <br>
-              Kuliyyah of Information and Communication Technology (KICT), <br>
-              International Islamic University Malaysia, <br>
-              Jalan Gombak, 53100 Kuala Lumpur, Malaysia</p>
-          </div>
-
-          <p>Tel: +603-6196 5601 <br>
-             Fax: +603-6196 5971</p>
-        </div>
-
-      </footer>
-    </div>
-
-  </body>
-</html>
-
+  .nav-bar a{
+    display: block;
+  }
+}
+.content{
+  padding: 50vh 2vw;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 2vw;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.about{
+  padding-left: 50px;
+  font-family: 'Corbel', sans-serif;
+  font-weight: 400;
+  font-size: 2vw;
+}
+.about h2{
+  font-family: 'Corbel', sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  color: #A04000;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  padding: 2vw 5vh;
+  font-family: 'Corbel', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #900C3F;
+}
+#calendaricon{
+  align: center;
+  padding-left: 30px;
+  width: 40vw;
+  height: 35vh;
+}
+.grid-container div{
+    margin: 1vw 2vh;
+}
+.countdown{
+  height: 100px;
+  background: #0f3854;
+  background: radial-gradient(ellipse at center,  #0a2e38  0%, #000000 70%);
+  background-size: 100%;
+  font-weight: bold;
+  font-family: 'Share Tech Mono', monospace;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
+    .time {
+        letter-spacing: 0.05em;
+        font-size: 80px;
+        padding: 5px 0;
+    }
+    .date {
+        letter-spacing: 0.1em;
+        font-size: 24px;
+    }
+    .text {
+        letter-spacing: 0.1em;
+        font-size: 12px;
+        padding: 20px 0 0;
+    }
+}
+.countdown p {
+    margin: 0;
+    padding: 0;
+}
+.footer{
+  width: 100vw;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(Images/footer.jpg);
+  background-repeat: no-repeat;
+}
+.footer-column {
+  float: left;
+  width: 33%;
+  padding: 1vw;
+}
+.footer-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.organisedby p{
+  align: left;
+  font-size: 3vh;
+}
+#iiumlogo{
+  float: left;
+  height: 12vh;
+  width: 7vw;
+  font-size: 3vh;
+}
+.footer p{
+  text-align: left;
+  color: white;
+  font-size: 3vh;
+}
