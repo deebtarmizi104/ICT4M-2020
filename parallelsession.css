@@ -1,6 +1,6 @@
 h1{
   font-family: 'Corbel', sans-serif;
-  size: 10px;
+  size: 10vh;
   text-align: center;
 }
 body {
@@ -12,23 +12,23 @@ body {
 .parallelsession_box {
   border-radius: 5px;
   padding: 2px;
-  font: 24px/36px 'Corbel', sans-serif;
-  width: 1300px;
-  height: 600px;
+  font: 1vw/2vw 'Corbel', sans-serif;
+  width: 84vw;
+  height: 100vh;
   overflow: scroll;
-  margin: 0px auto;
+  margin: 0vw auto;
 }
 ::-webkit-scrollbar {
-width: 10px;
-height: 12px;
+width: 0.5vw;
+height: 1.5vh;
 }
 ::-webkit-scrollbar-track {
-border: 0.5px solid purple;
-border-radius: 5px;
+border: 0.03vw solid purple;
+border-radius: 0.3vw;
 }
 ::-webkit-scrollbar-thumb {
 background: purple;
-border-radius: 5px;
+border-radius: 0.3vw;
 }
 ::-webkit-scrollbar-thumb:hover {
 background: #58ACFA;
@@ -43,11 +43,11 @@ table .center {
     margin-right:auto;
   }
 .column-styles {
-  width: 1000px;
+  width: 65vw;
 }
 .column-styles .standard {
   background-color: #9A64C1;
-  width: 200px;
+  width: 13vw;
 }
 .column-styles .featured {
   background-color: white;
@@ -63,7 +63,7 @@ table .center {
 td, th {
   border: 2px solid #9A64C1;
   border-radius: 5px;
-  padding: 10px;
+  padding: 0.5vw;
 }
 th {
   background-color: white;
