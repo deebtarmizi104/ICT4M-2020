@@ -21,6 +21,7 @@ Body{
 }
 .top-header{
   position: fixed;
+  z-index: 2;
 }
 .top-banner{
     width: 100vw;
@@ -180,6 +181,7 @@ Body{
   margin: 15vh 7vw;
   padding: 11vh;
   position: relative;
+  z-index: 1;
   background: #0f3854;
   background: radial-gradient(ellipse at center,  #0a2e38  30%, #000000 90%);
   background-size: 100%;
