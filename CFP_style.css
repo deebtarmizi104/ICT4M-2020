@@ -87,5 +87,8 @@
 .wrap > div:hover{
   background-color: #fae6ff;
 }
+li{
+  display: list-item;
+}
 
 
