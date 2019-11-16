@@ -99,6 +99,7 @@ ul{
 li{
   display: inline;
   text-align: center;
+  width: calc(100%/7);
 }
 li a{
   padding: 2vh 3vw;
@@ -109,9 +110,16 @@ a{
   color: white;
   padding: 3vw 2vh;
   font-weight: bold;
-  font-size: 2.5vh;
+  font-size: 2.2vh;
   text-decoration: none;
   background-color: #424242;
+}
+#submitguide{
+  text-align: justify;
+  font-size: 1.71vh;
+}
+#submitguide a{
+  height: 7vh;
 }
 a:hover{
   background-color: #58ACFA;
@@ -140,7 +148,6 @@ a.active{
 }
 div.content{
   padding-top: 50vh;
-
 }
 .column {
   float: left;
