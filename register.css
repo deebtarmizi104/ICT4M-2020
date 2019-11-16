@@ -2,14 +2,14 @@
   box-sizing: border-box;
   font-family: 'Corbel', sans-serif;
 }
-Body{
-    background-image: url(Images/background.jpeg);
-    margin: 8vh 8vw;;
-    font-style: normal;
-    font-weight: 300;
-    background-position: center center;
-    background-repeat: repeat;
-    margin: auto;
+body{
+  background-image: url(Images/background.jpeg);
+  background-position: center center;
+  background-repeat: repeat;
+  min-height: initial;
+  font-style: normal;
+  font-weight: 300;
+  margin: auto;
 }
 .clearfix {
   overflow: auto;
@@ -20,7 +20,9 @@ Body{
   display: table;
 }
 .top-header{
-  position: fixed;
+  position: sticky;
+  z-index: 2;
+  top: 0;
 }
 .top-banner{
     width: 100vw;
