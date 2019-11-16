@@ -21,7 +21,7 @@ body{
 }
 .top-header{
   position: sticky;
-  z-index: 2;
+  z-index: 1;
   top: 0;
 }
 .top-banner{
