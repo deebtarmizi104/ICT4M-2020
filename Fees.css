@@ -47,36 +47,3 @@ div {
   text-align: center;
   margin: 35px;
 }
-.footer{
-  width: 100vw;
-  height: 40vh;
-  background-position: center;
-  background-size: cover;
-  background-image: url(Images/footer.jpg);
-  background-repeat: no-repeat;
-}
-.footer-column {
-  float: left;
-  width: 33%;
-  padding: 1vw;
-}
-.footer-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.organisedby p{
-  align: left;
-  font-size: 3vh;
-}
-#iiumlogo{
-  float: left;
-  height: 12vh;
-  width: 7vw;
-  font-size: 3vh;
-}
-.footer p{
-  text-align: left;
-  color: white;
-  font-size: 3vh;
-}
