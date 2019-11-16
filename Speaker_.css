@@ -1,7 +1,7 @@
 .Speaker{
-  height: 150px;
-  width: 120px;
-  border: 2px solid black;
+  height: 22vh;
+  width: 9vw;
+  border: 0.15vw solid black;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -13,48 +13,48 @@
   border-style:none;
   background-color: #ffffff;
   font-family: "family corbel", sans-serif;
-  font-size: 15px;
+  font-size: 2.3vh;
   opacity: 0.9;
-  height: 330px;
-  width: 800px;
-  padding: 10px;
-  border-radius: 25px;
+  height: 49vh;
+  width: 63vw;
+  padding: 0.9vw;
+  border-radius: 2vw;
 }
 .KnFb{
   position: relative;
-  height:30px;
-  width: 20px;
-  left: 1055px;
+  height:3.5vh;
+  width: 1.4vw;
+  left: 77vw;
 }
 .PnInsta{
   position: relative;
-  height:30px;
-  width: 20px;
-  left: 1035px;
+  height:3.5vh;
+  width: 1.4vw;
+  left: 75vw;
 }
 .PnFB{
   position: relative;
-  height:30px;
-  width: 20px;
-  left: 1025px;
+  height:3.5vh;
+  width: 1.4vw;
+  left: 74vw;
 }
 .Pn2Fb{
   position: relative;
-  height:30px;
-  width: 20px;
-  left: 1025px;
+  height:3.5vh;
+  width: 1.4vw;
+  left: 72vw;
 }
 .Pn2Insta{
   position: relative;
-  height:30px;
-  width: 20px;
-  left: 1035px;
+  height:3.5vh;
+  width: 1.4vw;
+  left: 73vw;
 }
 .Pn2Tw{
   position: relative;
-  height:30px;
-  width: 20px;
-  left: 1045px;
+  height:3.5vh;
+  width: 1.4vw;
+  left: 74vw;
 }
 .PN1{
   display: block;
@@ -63,12 +63,12 @@
   border-style:none;
   background-color: #ffffff;
   font-family: "family corbel", sans-serif;
-  font-size: 15px;
+  font-size: 2.3vh;
   opacity: 0.9;
-  height: 170px;
-  width: 800px;
-  padding: 10px;
-  border-radius: 25px;
+  height: 24vh;
+  width: 63vw;
+  padding: 0.9vw;
+  border-radius: 2vw;
 }
 .PN2{
   display: block;
@@ -77,11 +77,12 @@
   border-style:none;
   background-color: #ffffff;
   font-family: "family corbel", sans-serif;
-  font-size: 15px;
+  font-size: 2.3vh;
   opacity: 0.9;
-  height: 110px;
-  width: 800px;
-  padding: 10px;
-  border-radius: 25px;
+  height: 8vw;
+  width: 63vw;
+  padding: 0.9vw;
+  border-radius: 2.3vw;
 }
+
 
