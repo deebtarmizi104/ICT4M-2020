@@ -2,13 +2,13 @@
   box-sizing: border-box;
   font-family: 'Corbel', sans-serif;
 }
-Body{
-    background-image: url(Images/background.jpeg);
-    margin: 8vh 8vw;;
+body{
+  background-image: url(Images/background.jpeg);
+  background-position: center center;
+  background-repeat: repeat;
+  min-height: initial;
     font-style: normal;
     font-weight: 300;
-    background-position: center center;
-    background-repeat: repeat;
     margin: auto;
 }
 .clearfix {
@@ -20,8 +20,9 @@ Body{
   display: table;
 }
 .top-header{
-  position: fixed;
+  position: sticky;
   z-index: 2;
+  top: 0;
 }
 .top-banner{
     width: 100vw;
@@ -78,46 +79,52 @@ Body{
 .registerbtn:hover{
   background-color:#E9ED75;
   color: black;
-}
-.nav-bar{
-    width: 100vw;
-    background-color: #424242;
-}
-.nav-bar ul{
-  margin: 0;
-  padding: 0;
-
-  display: flex;
+  height: 40px;
 }
 #navbtn{
   display: none;
 }
-.nav-bar li{
-    list-style-type: none;
-    margin: 2vh 1vw;
-    font-weight: bold;
-    font-size: 2.2vh;
-    text-align: center;
+div.nav-bar{
+  width: 100vw;
 }
-.nav-bar a{
-    text-decoration: none;
-    color: white;
-    padding: 3vw;
-
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
 }
-.nav-bar a:hover{
+li{
+  display: inline;
+  text-align: center;
+}
+li a{
+  padding: 2vh 3vw;
+  display: block;
+}
+a{
+  display: block;
+  color: white;
+  padding: 3vw 2vh;
+  font-weight: bold;
+  font-size: 2.5vh;
+  text-decoration: none;
+  background-color: #424242;
+}
+a:hover{
   background-color: #58ACFA;
   color: black;
   border-radius: 7px;
-  height: 10vh;
+  height: 100%;
 }
-.navbar a.active{
+a.active{
   background-color: #01DF74;
   color: black;
   border-radius: 7px;
-
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1300px) {
 
   .nav-bar ul{
     flex-direction: column;
@@ -131,8 +138,9 @@ Body{
     display: block;
   }
 }
-.content{
-  padding: 50vh 2vw;
+div.content{
+  padding-top: 50vh;
+
 }
 .column {
   float: left;
@@ -179,6 +187,8 @@ Body{
   height: 35vh;
   width: 40vw;
   margin: 15vh 7vw;
+  margin-bottom: 0;
+  padding-bottom: 0;
   padding: 11vh;
   position: relative;
   z-index: 1;
