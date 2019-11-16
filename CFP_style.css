@@ -6,6 +6,7 @@
   position: relative;
   color: white;
   width: 25.5vw;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  2/ 3;
   grid-row: 2 / 2;
@@ -15,6 +16,7 @@
   position: relative;
   color: white;
   width: 25.5vw;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  3/ 4;
   grid-row: 3 / 2;
@@ -24,6 +26,7 @@
   position: relative;
   color: white;
   width: 25.5vw;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  4/ 5;
   grid-row: 2 /3;
@@ -33,6 +36,7 @@
   position: relative;
   color: white;
   width: 25.5vw;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  2/ 3;
   grid-row: 3 / 4;
@@ -42,6 +46,7 @@
   position: relative;
   color: white;
   width: 25.5vw;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  3/4;
   grid-row: 3 / 4;
