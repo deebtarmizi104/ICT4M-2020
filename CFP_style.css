@@ -71,6 +71,9 @@
   font-family: "family corbel", sans-serif;
   display: list-item;
 }
+.ip{
+  display: list-item;
+}
 .wrap {
   display: grid;
   grid-template-columns:  auto auto auto;
