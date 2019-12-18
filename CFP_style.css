@@ -6,47 +6,47 @@ div.container0 {
   position: relative;
   color: white;
   width: 25.5vw;
-  height: 150vh;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  2/ 3;
   grid-row: 2 / 2;
   border-radius: 2vw;
 }
-.container1 {
+div.container1 {
   position: relative;
   color: white;
   width: 25.5vw;
-  height: 150vh;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  3/ 4;
   grid-row: 3 / 2;
   border-radius: 2vw;
 }
-.container2 {
+div.container2 {
   position: relative;
   color: white;
   width: 25.5vw;
-  height: 150vh;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  4/ 5;
   grid-row: 2 /3;
   border-radius: 2vw;
 }
-.container3 {
+div.container3 {
   position: relative;
   color: white;
   width: 25.5vw;
-  height: 150vh;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  2/ 3;
   grid-row: 3 / 4;
   border-radius: 2vw;
 }
-.container4 {
+div.container4 {
   position: relative;
   color: white;
   width: 25.5vw;
-  height: 150vh;
+  height: 100vh;
   border: 0.8vh solid white;
   grid-column:  3/4;
   grid-row: 3 / 4;
