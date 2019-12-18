@@ -6,7 +6,7 @@ div.container0 {
   position: relative;
   color: white;
   width: 25.5vw;
-  height: 90vh;
+  height: 80vh;
   border: 0.8vh solid white;
   grid-column:  2/ 3;
   grid-row: 2 / 2;
