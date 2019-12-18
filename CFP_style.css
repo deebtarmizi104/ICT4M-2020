@@ -12,7 +12,7 @@ div.container0 {
   grid-row: 2 / 2;
   border-radius: 2vw;
 }
-div.container1 {
+.container1 {
   position: relative;
   color: white;
   width: 25.5vw;
@@ -22,7 +22,7 @@ div.container1 {
   grid-row: 3 / 2;
   border-radius: 2vw;
 }
-div.container2 {
+.container2 {
   position: relative;
   color: white;
   width: 25.5vw;
@@ -32,7 +32,7 @@ div.container2 {
   grid-row: 2 /3;
   border-radius: 2vw;
 }
-div.container3 {
+.container3 {
   position: relative;
   color: white;
   width: 25.5vw;
@@ -42,7 +42,7 @@ div.container3 {
   grid-row: 3 / 4;
   border-radius: 2vw;
 }
-div.container4 {
+.container4 {
   position: relative;
   color: white;
   width: 25.5vw;
