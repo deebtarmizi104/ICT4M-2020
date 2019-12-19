@@ -58,6 +58,7 @@ div.container4 {
   height : 29vh;
   width :24.8vw;
   filter:blur(1px);
+  border: 0.5vh solid #9A64C1;
 }
 .part1{
   position: absolute;
@@ -79,13 +80,13 @@ div.word{
 }
 
 .wrap > div {
-  background-color: #ffffff;
+  background-color: #fae6ff;
   text-align: left;
   padding: 2vh 0;
   font-size: 3vh;
 }
 .wrap > div:hover{
-  background-color: #fae6ff;
+  background-color: #ffffff;
 }
 
 
