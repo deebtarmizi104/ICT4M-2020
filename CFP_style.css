@@ -7,7 +7,7 @@ div.container0 {
   color: white;
   width: 25.5vw;
   height: 100vh;
-  border: 0.8vh solid white;
+  border: 0.8vh solid #9A64C1;
   grid-column:  2/ 3;
   grid-row: 2 / 2;
   border-radius: 2vw;
@@ -17,7 +17,7 @@ div.container1 {
   color: white;
   width: 25.5vw;
   height: 100vh;
-  border: 0.8vh solid white;
+  border: 0.8vh solid #9A64C1;
   grid-column:  3/ 4;
   grid-row: 3 / 2;
   border-radius: 2vw;
@@ -27,7 +27,7 @@ div.container2 {
   color: white;
   width: 25.5vw;
   height: 100vh;
-  border: 0.8vh solid white;
+  border: 0.8vh solid #9A64C1;
   grid-column:  4/ 5;
   grid-row: 2 /3;
   border-radius: 2vw;
@@ -37,7 +37,7 @@ div.container3 {
   color: white;
   width: 25.5vw;
   height: 108vh;
-  border: 0.8vh solid white;
+  border: 0.8vh solid #9A64C1;
   grid-column:  2/ 3;
   grid-row: 3 / 4;
   border-radius: 2vw;
@@ -47,7 +47,7 @@ div.container4 {
   color: white;
   width: 25.5vw;
   height: 108vh;
-  border: 0.8vh solid white;
+  border: 0.8vh solid #9A64C1;
   grid-column:  3/4;
   grid-row: 3 / 4;
   border-radius: 2vw;
