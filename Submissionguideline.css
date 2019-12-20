@@ -18,3 +18,28 @@
   font-size: 3vw;
   color: #A04000;
 }
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: purple;
+  font-family: "family corbel", sans-serif;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 6px black;
+}
+#myBtn:hover {
+    background-color:  #08948F;
+  -webkit-transition: background-color 0.5s ease-in-out;
+ -moz-transition: background-color 0.5s ease-in-out;
+ -ms-transition: background-color 0.5s ease-in-out;
+ -o-transition: background-color 0.5s ease-in-out;
+ transition: background-color 0.5s ease-in-out;
+}
