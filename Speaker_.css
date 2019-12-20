@@ -84,7 +84,20 @@
   padding: 0.9vw;
   border-radius: 2.3vw;
 }
+.hero-text button, .modal-button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+.hero-text button:hover,  .modal-button:hover {
+  background-color: #08948F;
 
+}
 #myBtn {
   display: none;
   position: fixed;
