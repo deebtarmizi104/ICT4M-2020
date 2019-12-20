@@ -20,42 +20,6 @@
   padding: 0.9vw;
   border-radius: 2vw;
 }
-.KnFb{
-  position: relative;
-  height:3.5vh;
-  width: 1.4vw;
-  left: 1050px;
-}
-.PnInsta{
-  position: relative;
-  height:3.5vh;
-  width: 1.4vw;
-  left: 75vw;
-}
-.PnFB{
-  position: relative;
-  height:3.5vh;
-  width: 1.4vw;
-  left: 74vw;
-}
-.Pn2Fb{
-  position: relative;
-  height:3.5vh;
-  width: 1.4vw;
-  left: 72vw;
-}
-.Pn2Insta{
-  position: relative;
-  height:3.5vh;
-  width: 1.4vw;
-  left: 73vw;
-}
-.Pn2Tw{
-  position: relative;
-  height:3.5vh;
-  width: 1.4vw;
-  left: 74vw;
-}
 .PN1{
   display: block;
   margin-left: auto;
