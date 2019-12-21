@@ -7,43 +7,43 @@
     <title>ICT4M 2020</title>
 
     <link rel="stylesheet" href="home.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="home.js"></script>
 
   </head>
   <body>
 
+    <header>
+      <div class="header-banner">
+        <br>
+        <br>
+        <br>
+        <h1>ICT4M 2020</h1>
 
-      <header class="top-header">
-        <div class="top-banner">
+        <p>International Conference on Information & Communication Technology for Muslim World 2020</p>
+      </div>
+      <div class="clear">
 
+      </div>
+      <nav>
+        <div class="site-title">ICT4M 2020
           <input class="search-box" type="text" name="search" placeholder="Search..">
-          <a href="registration.html" class="registerbtn">Register now</a>
-
-
-          <br>
-          <br>
-          <br>
-          <h1>ICT4M 2020</h1>
-
-          <p>International Conference on Information & Communication Technology for Muslim World 2020</p>
-
         </div>
-        <nav class="nav-bar">
-          <ul>
-            <button id="navbtn"> X </button>
-            <li><a href="home.html" class="active">Home</a></li>
-            <li><a href="cfp.html">Call for Papers</a></li>
-            <li><a href="Submissionguideline.html" id="submitguide" >Submission Guidelines</a></li>
-            <li><a href="ConferenceProgramme.html">Programme</a></li>
-            <li><a href="parallelsession.html">Parallel Session</a></li>
-            <li><a href="speaker.html">Speakers</a></li>
-            <li><a href="Fees.html">Conference Fees</a></li>
-          </ul>
-        </nav>
 
-        <!-- <script type="text/javascript" src="Project HTML\navbar.js"> -->
+        <ul>
+          <li><a href="home.html" class="active">Home</a></li>
+          <li><a href="cfp.html">Call for Papers</a></li>
+          <li><a href="Submissionguideline.html" id="submitguide">Submission Guidelines</a></li>
+          <li><a href="ConferenceProgramme.html">Programme</a></li>
+          <li><a href="parallelsession.html">Parallel Session</a></li>
+          <li><a href="speaker.html">Speakers</a></li>
+          <li><a href="Fees.html">Conference Fees</a></li>
+          <li><a href="registration.html" class="registerbtn">Register now</a></li>
+        </ul>
 
-        </script>
-      </header>
+      </nav>
+    </header>
 
   <main class="content">
 
@@ -63,8 +63,8 @@
 
       </div>
 
-      <div class="column">
-        <img src="Images\calendaricon.png" alt="" id="calendaricon">
+      <div class="column" id="events">
+        <!-- <img src="Images\calendaricon.png" alt="" id="calendaricon">
         <div class="grid-container">
           <div>Full Paper Submission Dateline</div>
           <div>1st November 2019</div>
@@ -78,12 +78,16 @@
           <div>Camera Ready</div>
           <div>31st January 2020</div>
 
-          <div>Cenference</div>
+          <div>Conference</div>
           <div>23-25 March 2020</div>
 
         </div>
 
-      </div>
+      </div> -->
+
+    
+         </div>
+    </div>
 
     </div>
 
@@ -92,9 +96,10 @@
 
       </div>
       <div class="column">
-        <div class="countdown">
-          <p class="date">{{ date }}</p>
-          <p class="time">{{ time }}</p>
+        <div id="countdown">
+          <p id="date"></p>
+          <p id="time"></p>
+          <br>
           <p class="clocktitle">Countdown to ICT4M 2020</p>
         </div>
       </div>
