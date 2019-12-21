@@ -22,6 +22,7 @@ body{
 header {
     height: 360px;
     z-index: 10;
+    width: 100%
 }
 .header-banner {
     background-color: #333;
@@ -124,50 +125,6 @@ a.active{
   color: black;
   font-weight: bolder;
 }
-#events{
-  background: linear-gradient(45deg, rgb(19, 73, 95), rgb(118, 75, 226), rgb(131, 115, 198), rgb(119, 211, 185));
-   background-attachment: fixed;
-   height:100vh;
-   padding: 3rem 0;
-   margin: 0;
-   color: #555;
-   font: {
-      family: 'Lato', sans-serif;
-      size: 14px;
-  .container {
-      position: relative;
-      span {
-         color: #444;
-         font: {
-            family: 'Ramabhadra';
-            size: 21px;
-            weight: 700;
-         }
-      }
-      h1 {
-         margin-top: 5px;
-         color: #919294;
-         font: {
-            size: 13px;
-            weight: 300;
-         }
-   }
-
-   .wrapper {
-      background: #fff;
-      /* relative with .today-box::before*/
-      z-index: 1;  /*positive*/ // PARENT
-      position: relative;
-      /*---------*/
-      width: 380px;
-      min-height: 100%;
-      margin: auto;
-      padding: 10px 0 20px;
-      border-radius: 10px;
-      box-shadow: 0px 10px 30px -10px #000;
-      overflow: hidden;
-
-   }
 div.content{
   padding-top: 50vh;
 }
@@ -193,24 +150,68 @@ div.content{
   font-size: 3vw;
   color: #A04000;
 }
-.grid-container{
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 5px;
-  padding: 2vw 5vh;
-  font-family: 'Corbel', sans-serif;
-  font-weight: bold;
-  font-size: 1.5vw;
-  color: #900C3F;
+
+.container {
+   width: 90%;
+   margin: auto;
 }
-#calendaricon{
-  align: center;
-  padding-left: 30px;
-  width: 40vw;
-  height: 35vh;
+.mobile-wrapper {
+   background: #fff;
+   width: 380px;
+   min-height: 100%;
+   margin: auto;
+   padding: 10px 0 20px;
+   border-radius: 10px;
+   box-shadow: 0px 10px 30px -10px #000;
+   overflow: hidden;
 }
-.grid-container div{
-    margin: 1vw 2vh;
+.event-1 {
+   background: linear-gradient(to left, #400080, rgba(0, 96, 128, 1)), #400080;
+   color: #FFF;
+   padding: 15px 30px;
+   position: relative;
+   box-shadow: 0px 0px 40px -9px #485fed;
+   margin-bottom: 10px;
+ }
+.event-2 {
+   background: linear-gradient(to left, #008040, rgba(0, 128, 128, .75)), #008040;
+   color: #FFF;
+   padding: 15px 30px;
+   position: relative;
+   box-shadow: 0px 0px 40px -9px #485fed;
+   margin-bottom: 10px;
+
+}
+.event-3 {
+    background: linear-gradient(to left, #800060, rgba(128, 0, 32, .75)), #800060;
+    color: #FFF;
+    padding: 15px 30px;
+    position: relative;
+    box-shadow: 0px 0px 40px -9px #485fed;
+    margin-bottom: 10px;
+}
+.event-4 {
+     background: linear-gradient(to left, #802000, rgba(128, 96, 0, .8)), #802000;
+     color: #FFF;
+     padding: 15px 30px;
+     position: relative;
+     box-shadow: 0px 0px 40px -9px #485fed;
+     margin-bottom: 10px;
+}
+.event-5 {
+      background: linear-gradient(to left, #485fed, rgba(255, 44, 118, .25)), #485fed;
+      color: #FFF;
+      padding: 15px 30px;
+      position: relative;
+      box-shadow: 0px 0px 40px -9px #485fed;
+      margin-bottom: 10px;
+}
+.event-date {
+         font-size: 20px;
+         margin: 7px 0 0 0;
+         letter-spacing: 1px;
+         font-weight: 600;
+         text-shadow: 0px 0px 5px  rgba(#000, 0.15);
 }
 #countdown{
   height: 35vh;
