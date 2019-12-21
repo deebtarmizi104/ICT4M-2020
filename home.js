@@ -28,10 +28,20 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+  function addZero(num){
+   if (num < 10){
+      num = "0" + num;
+      return num;
+   } else {
+     return num;
+     }
+}
+
   // Output the result in an element with id="countdown"
-  document.getElementById("date").innerHTML = days + " Days ";
-  document.getElementById("time").innerHTML = hours + " Hours "
-  + minutes + " Minutes " + seconds + " Seconds ";
+  document.getElementById("date").innerHTML = addZero(days) ;
+  document.getElementById("hour").innerHTML = addZero(hours) ;
+  document.getElementById("min").innerHTML = addZero(minutes);
+  document.getElementById("sec").innerHTML = addZero(seconds);
 
   // If the count down is over, write some text
   if (distance < 0) {
