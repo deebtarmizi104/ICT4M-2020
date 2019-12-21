@@ -63,13 +63,13 @@ div.word{
   font-family: "family corbel", sans-serif;
 }
 .wrap > div {
-  background-color: #fae6ff;
+  background-color: #ffffff;
   text-align: center;
   padding: 2vh 0;
   font-size: 6vh;
 }
 .wrap > div:hover{
-  background-color: #ffffff;
+  background-color: #fae6ff;
 }
 #myBtn {
   display: none;
