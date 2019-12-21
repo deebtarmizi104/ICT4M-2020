@@ -111,13 +111,13 @@
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #9A64C1;
   width: 80%;
 }
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #9A64C1;
   float: right;
   font-size: 28px;
   font-weight: bold;
