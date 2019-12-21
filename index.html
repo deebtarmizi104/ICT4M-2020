@@ -7,8 +7,12 @@
     <title>ICT4M 2020</title>
 
     <link rel="stylesheet" href="home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
     <script type="text/javascript" src="home.js"></script>
 
   </head>
@@ -45,87 +49,91 @@
       </nav>
     </header>
 
-  <main class="content">
+  <main class="content" style="width:100%">
 
-    <div class="row">
-      <div class="column">
+            <div class="fotorama"
+                 data-autoplay="true"
+                 data-width="700"
+                 data-maxwidth="200%">
+              <img src="Images/ict4m banner.png" width="400px" height="200px">
+              <img src="Images/industry-4.0.jpg">
+              <img src="Images/4th industry revo.jpg">
+              <img src="Images/world congress.jpg">
+            </div>
+            <!-- <h2 align="center">ABOUT</h2>
 
-        <div class="about">
-          <h2 align="center">ABOUT</h2>
+            <p>ICT4M 2020 is a conference that gathers academicians, researchers, practitioners, professionals, and students
+              to address the challenges of Information and Communication Technology (ICT) for the Muslim world.
+              This conference has been conducted seven times so far with the most recent location
+              in Kuala Lumpur, Malaysia on 23-25 March 2020. In conjunction with the World Congress on
+              Integration and Islamicization, ICT4M 2020 will be held on 27-29 March 2020 in Kuantan, Pahang.
+              The theme for this year is “Mental Health and  Well Being in the 4th Industrial Revolution”. </p> -->
+          <!-- </div> -->
 
-          <p>ICT4M 2020 is a conference that gathers academicians, researchers, practitioners, professionals, and students
-            to address the challenges of Information and Communication Technology (ICT) for the Muslim world.
-            This conference has been conducted seven times so far with the most recent location
-            in Kuala Lumpur, Malaysia on 23-25 March 2020. In conjunction with the World Congress on
-            Integration and Islamicization, ICT4M 2020 will be held on 27-29 March 2020 in Kuantan, Pahang.
-            The theme for this year is “Mental Health and  Well Being in the 4th Industrial Revolution”. </p>
+          <div class="events">
+            <div id="countdown">
+
+              <h1>Countdown to ICT4M 2020</h1>
+
+              <div id="date"></div>
+              <div id="hour"></div>
+              <div id="min"></div>
+              <div id="sec"></div>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h4>Days</h4>
+              <h4>Hours</h4>
+              <h4>Mins</h4>
+              <h4>Secs</h4>
+           </div>
+
+            <div class="mobile-wrapper">
+
+              <div class="container">
+                 <h1>Important Dates!</h1>
+              </div>
+
+           <section class="event-1">
+              <h2 class="event-date">1 November 2019</h2>
+              <h3 class="event-name">Full Paper Submission Dateline</h3>
+           </section>
+
+           <section class="event-2">
+             <h2 class="event-date">31 December 2019</h2>
+             <h3 class="event-name">Acceptance Notifications</h3>
+           </section>
+
+           <section class="event-3">
+             <h2 class="event-date">10 January 2020</h2>
+             <h3 class="event-name">Early Registration Dateline</h3>
+           </section>
+
+           <section class="event-4">
+             <h2 class="event-date">31 January 2020</h2>
+             <h3 class="event-name">Camera Ready</h3>
+           </section>
+
+           <section class="event-5">
+             <h2 class="event-date">23-25 March 2020</h2>
+             <h3 class="event-name">Conference Day!</h3>
+           </section>
+
         </div>
 
-      </div>
 
-      <div class="column" id="events">
-        <div class="mobile-wrapper">
-
-          <div class="container">
-             <h1>Important Dates!</h1>
-          </div>
-
-       <section class="event-1">
-          <h3 class="event-date">1 November 2019</h3>
-          <h4 class="event-name">Full Paper Submission Dateline</h4>
-       </section>
-
-       <section class="event-2">
-         <h3 class="event-date">31 December 2019</h3>
-         <h4 class="event-name">Acceptance Notifications</h4>
-       </section>
-
-       <section class="event-3">
-         <h3 class="event-date">10 January 2020</h3>
-         <h4 class="event-name">Early Registration Dateline</h4>
-       </section>
-
-       <section class="event-4">
-         <h3 class="event-date">31 January 2020</h3>
-         <h4 class="event-name">Camera Ready</h4>
-       </section>
-
-       <section class="event-5">
-         <h3 class="event-date">23-25 March 2020</h3>
-         <h4 class="event-name">Conference Day!</h4>
-       </section>
-
-    </div>
-
-    </div>
-
-    </div>
-
-    <div class="row">
-      <div class="column">
-
-      </div>
-      <div class="column">
-        <div id="countdown">
-          <p id="date"></p>
-          <p id="time"></p>
-          <br>
-          <p class="clocktitle">Countdown to ICT4M 2020</p>
-        </div>
       </div>
     </div>
 
-    <footer class="footer">
+  </main>
 
-      <div class="footer-row">
-      <div class="footer-column">
+  <footer>
 
-      </div>
-      <div class="footer-column">
-        <div class="organisedby">
-          <p>Organised by:</p>
-          <img src="Images/iium logo.png" alt="" id="iiumlogo" align="right">
-        </div>
+    <div class="footer-banner">
+      <div class="organisedby">
+        <p>Organised by:</p>
+        <img src="Images/iium logo.png" alt="" id="iiumlogo" align="right">
         <br>
         <br>
         <br>
@@ -134,23 +142,20 @@
         <p>Email: ict4m@iium.edu.my <br>
            Website: https://ict4m.iium.edu.my</p>
       </div>
-      <div class="footer-column">
-        <div class="address">
-          <p>SECRETARIAT OF ICT4M 2020, <br>
-            Kuliyyah of Information and Communication Technology (KICT), <br>
-            International Islamic University Malaysia, <br>
-            Jalan Gombak, 53100 Kuala Lumpur, Malaysia</p>
-        </div>
 
-        <p>Tel: +603-6196 5601 <br>
+    <div class="address">
+      <p>SECRETARIAT OF ICT4M 2020, <br>
+        Kuliyyah of Information and Communication Technology (KICT), <br>
+        International Islamic University Malaysia, <br>
+        Jalan Gombak, 53100 Kuala Lumpur, Malaysia</p>
+      <br>
+      <p>Tel: +603-6196 5601 <br>
            Fax: +603-6196 5971</p>
-      </div>
+    </div>
 
-    </footer>
-  </main>
+    </div>
 
-
-
+  </footer>
 
 
   </body>
