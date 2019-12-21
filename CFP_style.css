@@ -45,7 +45,7 @@ div.container4 {
 .pt1{
   height : 40vh;
   width :74.5vw;
-  filter:blur(1px);
+  filter:blur(1.8px);
   border: 0.5vh solid #9A64C1;
 }
 .part1{
