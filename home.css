@@ -141,13 +141,13 @@ a.active{
   color: #A04000;
 } */
 .fotorama{
-  width: 70%;
+  width: 60%;
   float: left;
   padding-left: 20%;
   padding-top: 10%;
 }
 .event{
-  width: 30%;
+  width: 40%;
   float: left;
 }
 .container {
