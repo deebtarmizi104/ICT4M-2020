@@ -136,7 +136,6 @@ a.active{
   color: black;
   font-weight: bolder;
 }
-
 .fotorama{
   width: 60%;
   float: left;
@@ -149,6 +148,17 @@ a.active{
   padding-left: 5%;
   position:absolute;
   padding-top: 25%;
+  font-family: 'Kanit', sans-serif;
+}
+#accordion h3{
+  background: linear-gradient(to right, #148F77 , rgba(93, 173, 226, 0.70)), #148F77;
+  color: white;
+}
+#accordion h4{
+  font-size: 20px;
+}
+#accordion h5{
+  font-size: 20px;
 }
 .event{
   width: 40%;
@@ -183,7 +193,6 @@ a.active{
    position: relative;
    box-shadow: 0px 0px 40px -9px #485fed;
    margin-bottom: 10px;
-
 }
 .event-3 {
     background: linear-gradient(to left, #800060, rgba(128, 0, 32, .75)), #800060;
