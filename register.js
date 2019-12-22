@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
     $(".add-row").click(function(){
         var name = $("#name").val();
