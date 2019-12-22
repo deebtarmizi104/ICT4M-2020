@@ -126,28 +126,26 @@ a.active{
   font-weight: bolder;
 }
 
-/* .about{
-  padding-left: 50px;
-  font-family: 'Corbel', sans-serif;
-  font-weight: 400;
-  font-size: 2vw;
+.fotorama{
   width: 70%;
   float: left;
+  padding-left: 5%;
+  padding-top: 7%;
 }
-.about h2{
-  font-family: 'Corbel', sans-serif;
-  font-weight: bold;
-  font-size: 3vw;
-  color: #A04000;
-} */
-.fotorama{
-  width: 50%;
+.speaker{
+  width: 70%;
   float: left;
-  padding-left: 20%;
-  padding-top: 10%;
+  padding-left: 5%;
+  position:absolute;
+  padding-top: 33%;
+}
+.speaker img{
+  margin: 20px 20px 30px 30px;
+  padding-left: 10px;
+
 }
 .event{
-  width: 50%;
+  width: 30%;
   float: left;
 }
 .container {
