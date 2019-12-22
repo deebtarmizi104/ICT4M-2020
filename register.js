@@ -2,7 +2,7 @@ $(document).ready(function(){
     $(".add-row").click(function(){
         var name = $("#name").val();
         var email = $("#designation").val();
-        var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + name + "</td><td>" + email + "</td></tr>";
+        var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + name + "</td><td>" + designation + "</td></tr>";
         $("table tbody").append(markup);
     });
 
