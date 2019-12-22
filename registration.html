@@ -7,7 +7,9 @@
     <title>ICT4M Registration</title>
 
     <link rel="stylesheet" href="register.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="register.js"></script>
   </head>
   <body>
 
@@ -58,13 +60,33 @@
                 <label for="participant">Participants<span style="color:red">*</span></label>
               </div>
               <div>
-                <label for="name" style="color:black" id="partnamelabel">Name: </label>
-                <label for="designation" style="color:black" id="partdesignlabel">Designation: </label>
+
                 <br>
-                <input type="text" name="name" value=""  id="partnameinput">
-                <input type="text" name="designation" value="" id="partdesigninput">
-                <button type="button" name="addparticipant" id="addbtn">+</button>
+                <form>
+                    <input type="text" id="name" placeholder="Name">
+                    <input type="text" id="designation" placeholder="Designation">
+                    <input type="button" class="add-row" value="Add">
+                </form></br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Select</th>
+                            <th>Name</th>
+                            <th>Designation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" name="record"></td>
+                            <td>e.g: Muhammad Yusuf</td>
+                            <td>e.g: Benefits of Web Technology</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button type="button" class="delete-row">Delete</button>
+
               </div>
+
               <div>
                 <label for="exclGST">Amount (excl. GST)</label>
               </div>
@@ -132,7 +154,7 @@
             <br>
             <br>
 
-            <button type="button" name="submit" id="submitbtn">Submit</button>
+            <button type="button" name="submit" id="submitbtn" onclick="alert('Congrats! Your registration was successful. Thank you.')">Submit</button>
 
           </form>
             <br>
