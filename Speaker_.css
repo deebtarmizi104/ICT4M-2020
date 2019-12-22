@@ -132,3 +132,15 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #9A64C1;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+.fotorama{
+  data-width: 800px;
+       data-height:600px;
+}
