@@ -10,9 +10,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="text/javascript" src="home.js"></script>
 
   </head>
@@ -31,8 +34,10 @@
 
       </div>
       <nav>
-        <div class="site-title">ICT4M 2020
-          <input class="search-box" type="text" name="search" placeholder="Search..">
+        <div class="site-title">
+          <img src="Images/ict4m logo.png" width="80" height="40" align="center">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
         </div>
 
         <ul>
@@ -63,18 +68,55 @@
 
         </div>
 
-        <div class="speaker">
-          <img src="Images/kamal-hassan.jpg" width="350" height="400">
-          <img src="Images/muhaya.jpg" width="350" height="400">
-          <img src="Images/rosyam.jpg" width="300" height="400">
-        </div>
+        <div class="past-ict4m">
 
+          <h2>Previous ICT4M</h2>
+
+          <div id="accordion">
+            <h3>ICT4M 2018</h3>
+            <div>
+              <h4>Venue: Kuala Lumpur, Malaysia</h4>
+              <h5>Date: 23-25 July 2018</h5>
+              <img src="Images/ict4m 2018.jpg" width="500" height="200">
+            </div>
+            <h3>ICT4M 2016</h3>
+            <div>
+              <h4>Venue: Jakarta, Indonesia</h4>
+              <h5>Date: 22-24 November 2016</h5>
+              <img src="Images/ict4m-2016.png">
+            </div>
+            <h3>ICT4M 2014</h3>
+            <div>
+              <h4>Venue: Kuching, Sarawak</h4>
+              <h5>Date: 17-19 November 2014</h5>
+              <img src="Images/ict4m 2014.jpg" width="500" height="250">
+            </div>
+            <h3>ICT4M 2013</h3>
+            <div>
+              <h4>Venue: Rabat, Morocco</h4>
+              <h5>Date: 25-27 March 2013</h5>
+              <img src="Images/ict4m 2013.jpg" width="500" height="250">
+            </div>
+            <h3>ICT4M 2010</h3>
+            <div>
+              <h4>Venue: Jakarta, Indonesia</h4>
+              <h5>Date: 13-14 November 2010</h5>
+            </div>
+          </div>
+
+        </div>
 
             <script type="text/javascript">
               fotorama.resize({
                 width: 1000,
-                height: 500
+                height: 1000
               });
+            </script>
+
+            <script>
+            $( function() {
+              $( "#accordion" ).accordion();
+            } );
             </script>
 
           <div class="events">
@@ -143,7 +185,6 @@
       <div class="organisedby">
         <p>Organised by:</p>
         <img src="Images/iium logo.png" alt="" id="iiumlogo" align="right">
-        <br>
         <br>
         <br>
         <br>
