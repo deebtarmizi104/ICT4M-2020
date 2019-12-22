@@ -122,13 +122,13 @@ a.active{
   font-weight: bolder;
 }
 .fotorama{
-  width: 60%;
+  width: 50%;
   float: left;
   padding-left: 5%;
   padding-top: 7%;
 }
 .past-ict4m{
-  width: 60%;
+  width: 50%;
   float: left;
   padding-left: 5%;
   position:absolute;
@@ -146,7 +146,7 @@ a.active{
   font-size: 20px;
 }
 .event{
-  width: 40%;
+  width: 50%;
   float: left;
 }
 .container {
