@@ -127,13 +127,13 @@ a.active{
 }
 
 .fotorama{
-  width: 60%;
+  width: 50%;
   float: left;
   padding-left: 5%;
   padding-top: 7%;
 }
 .speaker{
-  width: 60%;
+  width: 50%;
   float: left;
   padding-left: 5%;
   position:absolute;
@@ -145,7 +145,7 @@ a.active{
 
 }
 .event{
-  width: 40%;
+  width: 50%;
   float: left;
 }
 .container {
