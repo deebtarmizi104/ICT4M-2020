@@ -1,42 +1,39 @@
-
-.content{
-  padding: 45vh 10vw;
-}
-
-.Programme{
+.header{
   text-align: center;
-  padding-right: 1px;
-  font-family: 'Corbel', sans-serif;
-  font-weight: lighter;
-  font-size: 2vw;
+  font-family: "family corbel", sans-serif;
 }
-.Programme h2{
-  text-align: center;
-  font-family: 'Corbel', sans-serif;
-  font-weight: bold;
-  font-size: 3vw;
-  color: #A04000;
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 .downloadbtn{
   margin-bottom: 1px;
   margin-right: 2px;
   float: right;
-  border-radius: 5px;
-  border: 3px solid #A52A2A;
-  background-color: white;
-  color: black;
-  padding: 7px 20px;
-  width: 160px;
-  height: 40px;
+  background-color: Black;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
   font-weight: bold;
   font-size: 17px;
-  color:#000000;
+  color:#FFFFFF;
   text-decoration: none;
+
 }
 .downloadbtn:hover{
-  background-color:#A52A2A;
-  color: black;
+background-color: RoyalBlue;
 }
 
 #myBtn {
@@ -64,3 +61,4 @@
  -o-transition: background-color 0.5s ease-in-out;
  transition: background-color 0.5s ease-in-out;
 }
+
