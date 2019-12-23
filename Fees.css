@@ -47,12 +47,9 @@ Fees {
   text-align: center;
   margin: 35px;
 }
-more {
-  font-style: normal;
-  font-family: 'Corbel', sans-serif;
-  font-weight: 500;
+body {
   text-align: center;
-
+}
 #myBtn {
   display: none;
   position: fixed;
