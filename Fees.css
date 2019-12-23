@@ -49,6 +49,7 @@ Fees {
 }
 body {
   text-align: center;
+  font-weight: 500;
 }
 #myBtn {
   display: none;
